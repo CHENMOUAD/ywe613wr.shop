@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/u7.css"> 
+
+<script>
+   function redirectToWhatsApp() {
+            window.open('https://wa.me/your_whatsapp_number', '_blank');
+        }
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AI Stock Market Prediction - Advanced Financial Intelligence</title>
+    <style>
+       
+    </style>
+</head>
+<body class="quantum-universe-container cosmic-grid-backdrop stellar-ambience-overlay">
+    <div class="neural-network-wrapper">
+        <section class="ai-consciousness-header">
+            <h1 class="quantum-intelligence-title">
+                AI Predicts Future Stock Market: 
+                <span class="neural-enhancement-highlight">Fast, Accurate, Powerful</span>
+            </h1>
+            
+            <div class="holographic-avatar-matrix">
+                <img src="img/1.jpg" alt="AI Intelligence System" class="dimensional-profile-sphere">
+            </div>
+
+            <div class="ai-performance-metrics">
+                <p class="precision-highlight">99.8% High-Precision Prediction, Get Ahead of Trends!</p>
+                <p class="usage-description">Simply enter the stock code you're interested in, and AI can generate detailed prediction reports in 2 seconds! 32,092 users are using it in real-time!</p>
+            </div>
+        </section>
+
+        <section class="quantum-interaction-nexus">
+            <input type="text" id="stockAnalysisInput" class="neural-input-field-matrix" placeholder="Enter stock symbol (e.g., AAPL, TSLA, NVDA)">
+            <button class="quantum-activation-catalyst" onclick="kmr()">Analyze Market Future</button>
+        </section>
+
+        <section class="compliance-disclosure-matrix">
+            <h3 class="regulatory-warning-beacon">⚠️ Important Risk Disclosure</h3>
+            <p class="legal-statement-construct">This service provides general market information only and does not constitute investment advice or recommendations.</p>
+            <p class="legal-statement-construct">• Financial markets involve risks, and you may lose some or all of your invested capital. All examples shown are historical data analysis and do not guarantee future returns.</p>
+            <p class="legal-statement-construct">• Investors should make prudent decisions based on their own risk tolerance. All information provided consists of objective factual statements and does not constitute investment advice.</p>
+            <p class="legal-statement-construct">• AI analysis tools only provide probability calculations based on historical data and algorithmic models, and do not constitute investment advice in any form.</p>
+            <p class="legal-statement-construct">• Past performance does not represent future performance, and actual returns may be lower or higher than AI predictions.</p>
+        </section>
+
+        <footer class="dimensional-footer-nexus">
+            <a href="privacy.html" class="legal-portal-link">Privacy Policy</a>
+            <a href="terms.html" class="legal-portal-link">Terms of Service</a>
+        </footer>
+    </div>
+
+    <!-- Processing Modal -->
+    <div id="processingModalDimension" class="quantum-modal-dimension">
+        <div class="neural-modal-core">
+            <h3 class="modal-title-quantum">AI System Processing</h3>
+            <p class="modal-secondary-text">Combining: Market Analysis, Latest News Analysis, Historical Data Analysis</p>
+            <div class="processing-quantum-chamber">
+                <div id="energyFlowBar" class="energy-flow-indicator"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="resultModalDimension" class="quantum-modal-dimension">
+        <div class="neural-modal-core">
+            <h3 class="modal-title-quantum">Your Stock Analysis Report is Complete</h3>
+            <p class="modal-content-stream">Unlock stock potential just one step away!</p>
+            <p class="modal-content-stream">Add us on WhatsApp and send unlock code:</p>
+            <div class="feature-validation-list">
+                <div class="feature-validation-item">Accurate AI reports</div>
+                <div class="feature-validation-item">Clear trading recommendations</div>
+                <div class="feature-validation-item">Dedicated investment support team</div>
+            </div>
+            <p class="modal-secondary-text">※ Click to redirect to official WhatsApp account</p>
+            <button class="quantum-activation-catalyst" onclick="redirectToWhatsApp()">Click Here to Receive Report</button>
+        </div>
+    </div>
+
+    <script>
+        function kmr() {
+            const processingModal = document.getElementById('processingModalDimension');
+            const resultModal = document.getElementById('resultModalDimension');
+            const energyBar = document.getElementById('energyFlowBar');
+            
+            processingModal.style.display = 'flex';
+            
+            setTimeout(() => {
+                energyBar.style.width = '100%';
+            }, 150);
+            
+            setTimeout(() => {
+                processingModal.style.display = 'none';
+                resultModal.style.display = 'flex';
+            }, 2000);
+        }
+
+     
+
+        document.addEventListener('click', function(event) {
+            const processingModal = document.getElementById('processingModalDimension');
+            const resultModal = document.getElementById('resultModalDimension');
+            
+            if (event.target === processingModal) {
+                processingModal.style.display = 'none';
+            }
+            if (event.target === resultModal) {
+                resultModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
